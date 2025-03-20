@@ -109,25 +109,37 @@
     <div class="page-content">
       <div class="container">
         <main>
-          {% if work_experience %}
+          {% if publications %}
             <section>
-              <h2 class="section-heading">Work Experience</h2>
-              {% for job in work_experience %}
+              <h2 class="section-heading">Publications</h2>
+              <ul>
+                {% for publication in publications %}<li>{{ publication.title | safe }}</li>{% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+          {% if research %}
+            <section>
+              <h2 class="section-heading">Research Experience</h2>
+              {% for job in research %}
                 <section>
                   <h3>
                     {% if job.url %}
-                      {{ job.position }} at <a href="{{ job.url }}">{{ job.company }}</a>
+                      <a href="{{ job.url }}">{{ job.title }}</a>
                     {% else %}
-                      {{ job.position }} at {{ job.company }}
+                      {{ job.title }}
                     {% endif %}
                   </h3>
+                  
                   {% if job.start_date and job.end_date %}
-                    <p class="section-label">{{ job.start_date }} - {{ job.end_date }}</p>
+                    <p class="section-label">{{ job.position }},     {{ job.start_date }} - {{ job.end_date }}</p>
+                  
+                  {% else %}
+                  <p class="section-label">{{ job.position }}</p>
                   {% endif %}
                   {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
                   {% if job.highlights %}
                     <ul>
-                      {% for highlight in job.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                      {% for highlight in job.highlights %}<li>{{ highlight | safe }}</li>{% endfor %}
                     </ul>
                   {% endif %}
                 </section>
@@ -150,7 +162,7 @@
                   {% if project.summary %}<p>{{ project.summary }}</p>{% endif %}
                   {% if project.highlights %}
                     <ul>
-                      {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                      {% for highlight in project.highlights %}<li>{{ highlight | safe }}</li>{% endfor %}
                     </ul>
                   {% endif %}
                   {% if project.images %}
@@ -236,14 +248,9 @@
                       {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
                     </ul>
                   {% endif %}
-                  {% if edu.honors %}
-                    <h4>Honors</h4>
-                    <ul>
-                      {% for hon in edu.honors %}<li>{{ hon }}</li>{% endfor %}
-                    </ul>
-                  {% endif %}
-                  {% if edu.gpa_major or edu.gpa_cumulative or edu.graduation_date %}
+                  {% if edu.honors or edu.gpa_major or edu.gpa_cumulative or edu.graduation_date %}
                     <p>
+                    {% if edu.honors %}<span class="block">Honors: {{ edu.honors }}</span>{% endif %}
                       {% if edu.gpa_major %}<span class="block">GPA in Major: {{ edu.gpa_major }}</span>{% endif %}
                       {% if edu.gpa_cumulative %}<span class="block">Cumulative GPA: {{ edu.gpa_cumulative }}</span>{% endif %}
                       {% if edu.graduation_date %}<span class="block">Graduation Date: {{ edu.graduation_date }}</span>{% endif %}

@@ -1,224 +1,245 @@
 {
   "name": "Hope Townsend",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "label": "Computational Biologist",
+  "image_path": "img/HopeTown.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
+    "email": "hopekirby2@gmail.com.com",
     "phone": "623-566-0282",
     "location": "Denver, CO, US"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "I am a Computational biologist driven by the fervent belief that biological understanding can be advanced through the transformative power of computational and statistical methods. In my current research, I focus on using and developing computational tools to integrate disease-associated variation with transcriptomics data for identifying biomarkers of disease. As an interdisciplinary researcher, I am constantly looking for opportunities to advance scientific knowledge and improve public health and scientific knowledge",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
       "label": "Personal Website",
-      "url": "https://sample.com",
+      "url": "https://hope2925.github.io/",
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "LinkedIn",
+      "url": "www.linkedin.com/in/town123",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "Lab Github",
+      "url": "https://github.com/Dowell-Lab/",
+      "svg_path": "img/github.svg"
+    },
+    {
+      "label": "Personal Github",
+      "url": "https://github.com/Hope2925",
       "svg_path": "img/github.svg"
     }
   ],
-  "work_experience": [
-    {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
-      "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
-      ]
-    },
-    {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
-      "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
-      "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
+  "publications": [
+      {
+        "title": "Stanley J.T., Barone G.E.F., <b>Townsend H.A.</b>, Sigauke R.F., Allen M.A., Dowell R.D. (2025). LIET Model: Capturing the kinetics of RNA polymerase from loading to termination. BioRxiv. <i>[Accepted to Nucleic Acids Research].</i> <a href=https://doi.org/10.1101/2024.10.03.616401>link.</a>"
         },
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
+    {
+      "title": "<b>Townsend, H.A.</b>, Rosenberger, K., Inamo, J., Zhang, F. (2024). Evaluating Methods for Integrating Single-Cell Data and Genetics to Understand Inflammatory Disease Complexity. <i>Front. Immunol.</i> 15. <a href=10.3389/fimmu.2024.1454263>link.</a>"
+      },
+    {
+        "title": "Sigauke, R.F., Sanford, L., Maas, Z.L., Jones, T., Stanley, J.T., <b>Townsend, H.A.</b>, Allen, M.A., Dowell, R.D. Atlas of nascent RNA transcripts reveals enhancer to gene linkages. BioRxiv. <i>[Revised and Resubmitted].</i> <a href=10.1101/2023.12.07.570626>link.</a>"
         },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
+    {
+        "title": "<b>Townsend, H.A.</b>, Imes, A.I., Wang, X. (2022) How does photosynthesis wake in the morning?  <i>Front. Young Minds.</i> 10:785172. <a href=10.3389/frym.2022.785172>link.</a>"
+        },
+    {
+        "title": "Squire, M.S.*, <b>Townsend, H.A.*</b>, Islam, A., Actis, L.A. (2022). Light regulates Acinetobacter baumannii chromosomal and pAB3 plasmid genes at 37ºC. <i>J. Bacteriol.</i> 204:6.. <b>*These authors contributed equally.</b> <a href=10.1128/jb.00032-22>link.</a>"
+        },
+    {
+        "title": "Squire, M.S., <b>Townsend, H.A.</b>, Actis, L.A. (2022). The influence of blue light and the BlsA photoreceptor on the oxidative stress response of <i>Acinetobacter baumannii</i>. <i>Front. Cell. Infect. Microbiol.</i> 12:856953. <a href=10.3389/frym.2022.785172>link.</a>"
         }
-      ]
-    },
+   ],
+  "research": [
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
-      "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
-        }
-      ]
-    }
-  ],
-  "volunteer_experience": [
-    {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "title": "Predictive Modeling of Cancer Treatment",
+      "position": "Graduate Researcher",
+      "start_date": "January 2025",
       "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
+      "summary": "Working with Drs. Aaron Clauset and Benjamin Bitler from the Computer Science department and Medical School, respectively to identify biomarkers for Ovarian Cancer Treatment Success",
       "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
+        "Collaborate with Biostatistics student to develop <b>machine learning</b> algorithm to align multiple transcriptomic platforms (RNA-seq, Nanostring)",
+        "Curate the largest public database of ovarian cancer patient data pre and post NACT",
+        "Preprocess data <b>(QC, mapping, counting, normalization)</b> for application to a network-based predictive analysis of biomarkers for successful treatment"
       ]
     },
     {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
+      "title": "Improved Biomarker prediction with Enhancers",
+      "position": "Graduate Researcher",
+      "start_date": "August 2023",
+      "end_date": "Present",
+      "summary": "Collaborating with biologists, clinicians, and data scientists to improve statistical prediction of COPD and Asthma biomarkers using RNA sequencing data and genomics",
       "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
+        "Created a <b>Nextflow</b> pipeline and an algorithm for optimized characterization of enhancers from high-throughput sequencing: <a href=https://github.com/Dowell-Lab/Bidir_Counting_Analysis>Github Repo</a>",
+        "Developed an <b>enrichment-based statistical method</b> to improve identification of differentially transcribed enhancers and responsive transcription factors: <a href=https://github.com/Dowell-Lab/TFEA/tree/Lead_edge>Github Repo</a>",
+        "Adapted a novel Bayesian model-based software to model enhancer transcription",
+        "Performing QC, enhancer identification, differential expression and GO analysis, and regulatory network prediction of patient samples perturbed with particulate matter",
+        "<b>Two expected publications</b>: Townsend et al. in prep (expected May 2025), Townsend et al. in prep (expected Nov 2025)"
+      ]
+    },
+    
+    {
+      "title": "Grad Rotation: Single cell omics & GWAS integration",
+      "position": "Graduate Rotation Student",
+      "start_date": "August 2023",
+      "end_date": "Dec 2023",
+      "highlights": [
+        "Benchmarked 3 computational methods for identifying pathologically relevant cell types and gene networks from <b>scRNA-seq/CITE-seq and genome-wide association studies (GWAS)</b>",
+        "Evaluated the impact of SNP-gene linking methods on cell-state – disease linkage",
+        "Applied statistical modeling to characterize myeloid phenotypes in Rheumatoid Arthritis",
+        "Applied a <b>deep learning model</b> to cluster more nuanced cell types by integrating scRNA-seq with pathway data",
+        "<a href=https://github.com/fanzhanglab/SCRNA-GWAS-Benchmarking>Github Repo</a>"
+      ]
+    },
+    {
+      "title": "Large scale enhancer annotation and RNA Pol II modeling",
+      "position": "Graduate Rotation Student",
+      "start_date": "August 2023",
+      "end_date": "Dec 2023",
+      "highlights": [
+          "Optimized Nextflow pipeline for analysis and QC of high-throughput sequencing data: <a href=https://github.com/Dowell-Lab/Bidirectional-Flow/tree/Tfit_focus>Github Repo</a>",
+          "Curated and characterized set of 800k predicted cis-regulatory elements from an in-house database of run-on sequencing data (>3k samples)",
+          "Alpha-tested and optimized Bayesian statistical model of RNA polymerase activity: <a href=https://github.com/Dowell-Lab/LIET>Github Repo</a>",
+        "Benchmarked differential transcription computational methods for identifying differentially transcribed cis-regulatory elements",
+        "Applied several machine learning methods to determine target genes of enhancers from correlation of nascent transcription",
+        "Applied statistical modeling to characterize myeloid phenotypes in Rheumatoid Arthritis",
+        "Applied a deep learning model to cluster more nuanced cell types by integrating scRNA-seq with pathway data"
+      ]
+    },
+    {
+      "title": "Predicting Structural Variants without Reference Genomes",
+      "position": "Graduate Rotation Student",
+      "start_date": "January 2023",
+      "end_date": "May 2023",
+      "highlights": [
+          "Showed the feasibility of predicting structural variants in species with poor reference genomes by aligning short-read data to high-quality long read data",
+          "Created a python-based pipeline to predict structural variants from short read data of individuals to the long read data of another individual",
+          "Proved feasibility with proper structural variant divergence in 1000Genomes individuals of varying genomic divergence: <a href=https://github.com/Hope2925/LRproj>Github Repo</a>"
+      ]
+    },
+    {
+      "title": "Photosynthesis Redesign",
+      "position": "International GEM Competition Team Leader",
+      "start_date": "May 2021",
+      "end_date": "Nov 2021",
+      "highlights": [
+          "Gold Medal (requiring excellence in engineering, human practices, & other areas)",
+          "Nominee for Awards: Best Plant Synthetic Biology and Best Food & Nutrition Project",
+          "Organized and spearheaded a diverse team of 12 to develop a genetically engineered microbe and create products ranging from a website, presentations, to outreach",
+          "Guided the team in developing alternative Calvin cycle pathways and performed Gibson assembly to clone synthetic pathways into cyanobacteria",
+          "Used Matlab and Python to edit and create scripts for Flux Balance Analysis and in silico growth analysis of multiple developed models",
+          "<a href=http://2021.igem.org/Team:MiamiU_OH>Team Website</a>"
+      ]
+    },
+    {
+      "title": "Acinetobacter baumannii",
+      "position": "Undergraduate Researcher",
+      "start_date": "Feb 2019",
+      "end_date": "May 2022",
+      "highlights": [
+          "Coordinated with PhD candidate on projects investigating the photoreceptor BlsA in Acinetobacter baumannii, focusing on its regulon at 24ºC and 37ºC",
+          "Performed RNA isolation, cDNA generation, qRT-PCR and RNAseq differential expression analysis using Linux, Python & R at 24ºC & 37ºC",
+          "Developed mutants with regards to multiple genes of interest using point mutation mutagenesis and recombineering protocol including the design of primers and cloning",
+          "Conducted and edited biological and immunological assays to measure light-mediated activities (motility, conjugation, catalase activity, murine model, etc.)"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "University of Colorado- Boulder",
+      "location": "Boulder, CO",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+        "PhD in Molecular Biology"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "honors": "Interdiscplinary Quantitative Biology NSF Fellow, Schurl-Curci Scholar",
+      "gpa_cumulative": "4.0",
+      "graduation_date": "Expected May 2027"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "University of Colorado- Boulder",
+      "location": "Boulder, CO",
+      "degrees": [
+        "Master of Science in Computer Science"
+      ],
+      "gpa_cumulative": "4.0",
+      "graduation_date": "May 2025"
+    },
+    {
+      "institution": "Miami University",
+      "location": "Oxford, OH",
+      "degrees": ["Bachelor of Science in Microbiology",
+          "Minors in Bioinformatics & Geology"],
+      "honors": "Summa Cum Laude, Honors with Distinction",
+      "gpa_cumulative": "4.0",
+      "graduation_date": "May 2022"
     }
   ],
   "skills": [
     {
-      "name": "My First Skill",
+      "name": "Bioinformatics Pipeline Development: Nextflow, snakemake",
       "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficient"
     },
     {
-      "name": "My Second Skill",
+      "name": "Statistical analysis: GLM, Bayesian, Causal Inference",
+      "proficiency": 100,
+      "proficiency_label": "Proficient"
+    },
+    {
+      "name": "R, Python, Linux",
+      "proficiency": 100,
+      "proficiency_label": "Highly Proficient"
+    },
+    {
+      "name": "Single cell Omics Analysis: CITE-seq, Seurat, dimensionality reduction, clustering, pseudotime, cell-type annotation",
+      "proficiency": 100,
+      "proficiency_label": "Highly Proficient"
+    },
+    {
+      "name": "Next-generation sequencing QC & Analysis: RNA-seq, PRO-seq, ChIP-seq, ATAC-seq",
+      "proficiency": 100,
+      "proficiency_label": "Highly Proficient"
+    },
+    {
+      "name": "High Computer Clusters (HPC) and Cloud Computing",
+      "proficiency": 100,
+      "proficiency_label": "Highly Proficient"
+    },
+    {
+      "name": "Genomics: GWAS, LD-score regression, MAGMA",
+      "proficiency": 100,
+      "proficiency_label": "Highly Proficient"
+    },
+    {
+      "name": "Multiomics Integration: GWAS, CITE-seq, CCA",
+      "proficiency": 100,
+      "proficiency_label": "Highly Proficient"
+    },
+    {
+      "name": "Machine Learning: Pytorch, Tensorflow",
       "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficient"
+    },
+    {
+      "name": "Matlab, C++",
+      "proficiency": 60,
+      "proficiency_label": "Proficient"
     }
   ],
   "interests": [
     {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
+      "name": "Teaching Others about Bioinformatics",
+      "summary": "I help lead a workshop every year teaching graduate students on how to perform QC on and analyze their next-generation sequencing data (e.g. CITE-seq, RNA-seq, ChIP-seq, ATAC-seq)",
       "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
-        }
       ]
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
-        }
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
-    }
-  ],
-  "references": [
-    {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
-    },
-    {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+        "name": "Throwing fun events to give parents a break",
+        "summary": "I plan and lead a quarterly Kid's Night Out event where myself and fellow volunteers entertain and feed around 30 kids with fun learning activities!",
+        "images": [
+         
+        ]
     }
   ]
 }
