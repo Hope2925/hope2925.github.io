@@ -17,7 +17,7 @@
     },
     {
       "label": "LinkedIn",
-      "url": "www.linkedin.com/in/town123",
+      "url": "https://www.linkedin.com/in/town123",
       "svg_path": "img/linkedin.svg"
     },
     {
@@ -69,12 +69,12 @@
       "position": "Graduate Researcher",
       "start_date": "August 2023",
       "end_date": "Present",
-      "summary": "Collaborating with biologists, clinicians, and data scientists to improve statistical prediction of COPD and Asthma biomarkers using RNA sequencing data and genomics",
+      "summary": "Collaborating with biologists, clinicians, and data scientists at National Jewish Health to improve statistical prediction of COPD and Asthma biomarkers using RNA sequencing data and genomics",
       "highlights": [
         "Created a <b>Nextflow</b> pipeline and an algorithm for optimized characterization of enhancers from high-throughput sequencing: <a href=https://github.com/Dowell-Lab/Bidir_Counting_Analysis>Github Repo</a>",
         "Developed an <b>enrichment-based statistical method</b> to improve identification of differentially transcribed enhancers and responsive transcription factors: <a href=https://github.com/Dowell-Lab/TFEA/tree/Lead_edge>Github Repo</a>",
         "Adapted a novel Bayesian model-based software to model enhancer transcription",
-        "Performing QC, enhancer identification, differential expression and GO analysis, and regulatory network prediction of patient samples perturbed with particulate matter",
+        "Performing QC, enhancer identification, differential expression, GO analysis, and regulatory network prediction of patient samples perturbed with particulate matter",
         "<b>Two expected publications</b>: Townsend et al. in prep (expected May 2025), Townsend et al. in prep (expected Nov 2025)"
       ]
     },
@@ -86,7 +86,7 @@
       "end_date": "Dec 2023",
       "highlights": [
         "Benchmarked 3 computational methods for identifying pathologically relevant cell types and gene networks from <b>scRNA-seq/CITE-seq and genome-wide association studies (GWAS)</b>",
-        "Evaluated the impact of SNP-gene linking methods on cell-state – disease linkage",
+        "Evaluated the impact of <b>SNP-gene linking</b> methods on cell-state – disease linkage",
         "Applied statistical modeling to characterize myeloid phenotypes in Rheumatoid Arthritis",
         "Applied a <b>deep learning model</b> to cluster more nuanced cell types by integrating scRNA-seq with pathway data",
         "<a href=https://github.com/fanzhanglab/SCRNA-GWAS-Benchmarking>Github Repo</a>"
@@ -98,13 +98,11 @@
       "start_date": "August 2023",
       "end_date": "Dec 2023",
       "highlights": [
-          "Optimized Nextflow pipeline for analysis and QC of high-throughput sequencing data: <a href=https://github.com/Dowell-Lab/Bidirectional-Flow/tree/Tfit_focus>Github Repo</a>",
+          "Optimized <b>Nextflow</b> pipeline for analysis and QC of high-throughput sequencing data: <a href=https://github.com/Dowell-Lab/Bidirectional-Flow/tree/Tfit_focus>Github Repo</a>",
           "Curated and characterized set of 800k predicted cis-regulatory elements from an in-house database of run-on sequencing data (>3k samples)",
-          "Alpha-tested and optimized Bayesian statistical model of RNA polymerase activity: <a href=https://github.com/Dowell-Lab/LIET>Github Repo</a>",
+          "Alpha-tested and optimized <b>Bayesian statistical model</b> of RNA polymerase activity: <a href=https://github.com/Dowell-Lab/LIET>Github Repo</a>",
         "Benchmarked differential transcription computational methods for identifying differentially transcribed cis-regulatory elements",
-        "Applied several machine learning methods to determine target genes of enhancers from correlation of nascent transcription",
-        "Applied statistical modeling to characterize myeloid phenotypes in Rheumatoid Arthritis",
-        "Applied a deep learning model to cluster more nuanced cell types by integrating scRNA-seq with pathway data"
+        "Applied several machine learning methods to determine target genes of enhancers from correlation of nascent transcription"
       ]
     },
     {
@@ -114,7 +112,7 @@
       "end_date": "May 2023",
       "highlights": [
           "Showed the feasibility of predicting structural variants in species with poor reference genomes by aligning short-read data to high-quality long read data",
-          "Created a python-based pipeline to predict structural variants from short read data of individuals to the long read data of another individual",
+          "Created a <b>python-based pipeline</b> to predict structural variants from short read data of individuals to the long read data of another individual",
           "Proved feasibility with proper structural variant divergence in 1000Genomes individuals of varying genomic divergence: <a href=https://github.com/Hope2925/LRproj>Github Repo</a>"
       ]
     },
@@ -125,7 +123,7 @@
       "end_date": "Nov 2021",
       "highlights": [
           "Gold Medal (requiring excellence in engineering, human practices, & other areas)",
-          "Nominee for Awards: Best Plant Synthetic Biology and Best Food & Nutrition Project",
+          "<b>Nominee for International Awards</b>: Best Plant Synthetic Biology and Best Food & Nutrition Project",
           "Organized and spearheaded a diverse team of 12 to develop a genetically engineered microbe and create products ranging from a website, presentations, to outreach",
           "Guided the team in developing alternative Calvin cycle pathways and performed Gibson assembly to clone synthetic pathways into cyanobacteria",
           "Used Matlab and Python to edit and create scripts for Flux Balance Analysis and in silico growth analysis of multiple developed models",
@@ -170,7 +168,7 @@
       "location": "Oxford, OH",
       "degrees": ["Bachelor of Science in Microbiology",
           "Minors in Bioinformatics & Geology"],
-      "honors": "Summa Cum Laude, Honors with Distinction",
+      "honors": "Goldwater Scholar, Astronaut Scholar, Summa Cum Laude, Honors with Distinction",
       "gpa_cumulative": "4.0",
       "graduation_date": "May 2022"
     }
@@ -230,10 +228,30 @@
   "interests": [
     {
       "name": "Teaching Others about Bioinformatics",
-      "summary": "I help lead a workshop every year teaching graduate students on how to perform QC on and analyze their next-generation sequencing data (e.g. CITE-seq, RNA-seq, ChIP-seq, ATAC-seq)",
+      "summary": "I help plan and lead a workshop every year teaching graduate students on how to perform QC on and analyze their next-generation sequencing data (e.g. CITE-seq, RNA-seq, ChIP-seq, ATAC-seq). <a href=https://github.com/Dowell-Lab/srworkshop>Github Repo</a>",
       "images": [
       ]
     },
+    {
+      "name": "Mentoring Community College Undergraduates",
+      "summary": "I speak annually at Front Range Community College to help encourage students who are considering additional higher education or transitoning to state schools.",
+      "images": [
+      ]
+      
+    },
+    {
+      "name": "Preparing for Quality Science in Industry",
+      "summary": "I am excited to help change lives in biotech companies, but also recognize industry brings unique challenges not thoroughly taught in academia. Therefore, I am getting the Quality Science Education Micro-Credential through Pathway for Patient Health. Coursework includes Global Regulatory & Legal Requirements of Quality, Business Acumen, Product Development & Validation, and Risk & Failure Analysis. <a href=www.pathway4ph.org>Website</a>",
+      "images": [
+      ]
+    },
+    {
+      "name": "Facilitating learning of Machine Learning across Campuses",
+      "summary": "I co-lead a biweekly journal club on the usage of LLMs in biology across multiple departments (e.g. Computer Science, Biology, Ecology) at both the University of Colorado Boulder and Anschutz campuses. We invite speakers and get hands'on learning. <a href=https://github.com/sterrettJD/gpLM-reading-group>Curriculum</a>",
+      "images": [
+      ]
+    },
+    
     {
         "name": "Throwing fun events to give parents a break",
         "summary": "I plan and lead a quarterly Kid's Night Out event where myself and fellow volunteers entertain and feed around 30 kids with fun learning activities!",

@@ -303,7 +303,7 @@
               {% for interest in interests %}
                 <section>
                   <h3>{{ interest.name }}</h3>
-                  {% if interest.summary %}<p>{{ interest.summary }}</p>{% endif %}
+                  {% if interest.summary %}<p>{{ interest.summary | safe }}</p>{% endif %}
                   {% if interest.images %}
                     <div class="gallery side-gallery">
                       {% for img in interest.images %}
