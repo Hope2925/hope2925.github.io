@@ -7,7 +7,7 @@
     "phone": "623-566-0282",
     "location": "Denver, CO, US"
   },
-  "summary": "I am a Computational biologist driven by the fervent belief that biological understanding can be advanced through the transformative power of computational and statistical methods. In my current research, I focus on using and developing computational tools to integrate disease-associated variation with transcriptomics data for identifying biomarkers of disease. As an interdisciplinary researcher, I am constantly looking for opportunities to advance scientific knowledge and improve public health and scientific knowledge",
+  "summary": "I am a Computational biologist driven by the fervent belief that biological understanding can be advanced through the transformative power of computational and statistical methods. In my current research, I focus on using and developing computational tools to integrate disease-associated variation with transcriptomics data for identifying biomarkers of disease. As an interdisciplinary researcher, I am constantly looking for opportunities to advance scientific knowledge and improve public health and scientific knowledge.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
@@ -33,14 +33,20 @@
   ],
   "publications": [
       {
+        "title": "Full list of publications can be found <a href=https://scholar.google.com/citations?hl=en&user=vKXsBE4AAAAJ&view_op=list_works&sortby=pubdate>here.</a>"
+          },
+      {
+        "title": "Sigauke, R.F., Sanford, L., Maas, Z.L., Jones, T., Stanley, J.T., <b>Townsend, H.A.</b>, Allen, M.A., Dowell, R.D. (2025). Atlas of nascent RNA transcripts reveals enhancer to gene linkages. <i>BMC Genomics.</i> 26:407 <a href=10.1101/2023.12.07.570626>link.</a>"
+          },
+      {
         "title": "Stanley J.T., Barone G.E.F., <b>Townsend H.A.</b>, Sigauke R.F., Allen M.A., Dowell R.D. (2025). LIET Model: Capturing the kinetics of RNA polymerase from loading to termination. <i>Nucleic Acids Research.</i> 53:7. <a href=https://doi.org/10.1093/nar/gkaf246>link.</a>"
+        },
+      {
+        "title": "Mantel, I., Singaraju, A., <b>Townsend, H.</b>, Lakhanpal, A., Zhang, F., Donlin, L. (2024). IL-6 receptor blockade prevents polarization of pro-fibrotic macrophages in myeloid-rich RA synovial tissue. <i>The Journal of Immunology.</i> 212:1_Supplement. <a href=https://doi.org/10.4049/jimmunol.212.supp.0437.4813>link.</a>"
         },
     {
       "title": "<b>Townsend, H.A.</b>, Rosenberger, K., Inamo, J., Zhang, F. (2024). Evaluating Methods for Integrating Single-Cell Data and Genetics to Understand Inflammatory Disease Complexity. <i>Front. Immunol.</i> 15. <a href=https://doi.org/10.3389/fimmu.2024.1454263>link.</a>"
       },
-    {
-        "title": "Sigauke, R.F., Sanford, L., Maas, Z.L., Jones, T., Stanley, J.T., <b>Townsend, H.A.</b>, Allen, M.A., Dowell, R.D. Atlas of nascent RNA transcripts reveals enhancer to gene linkages. BioRxiv. <i>[Revised and Resubmitted].</i> <a href=10.1101/2023.12.07.570626>link.</a>"
-        },
     {
         "title": "<b>Townsend, H.A.</b>, Imes, A.I., Wang, X. (2022) How does photosynthesis wake in the morning?  <i>Front. Young Minds.</i> 10:785172. <a href=https://kids.frontiersin.org/articles/10.3389/frym.2022.785172>link.</a>"
         },
@@ -51,7 +57,24 @@
         "title": "Squire, M.S., <b>Townsend, H.A.</b>, Actis, L.A. (2022). The influence of blue light and the BlsA photoreceptor on the oxidative stress response of <i>Acinetobacter baumannii</i>. <i>Front. Cell. Infect. Microbiol.</i> 12:856953. <a href=https://doi.org/10.3389/fcimb.2022.856953>link.</a>"
         }
    ],
+  "work": [
+    
+    {
+      "title": "Refined Science: Bioinformatics Intern",
+      "position": "Improving Drug Target Prediction via Gene-Programs",
+      "start_date": "June 1, 2025",
+      "end_date": "August 10, 2025",
+      "summary": "Worked with the Bioinformatics team at biotech company Refined Science to create a novel pipeline for drug-target discovery using unsupervised discovery of gene-programs.",
+      "highlights": [
+          "<a href=https://www.refinedscience.com/>Company Website</a>",
+          "Integrated final results into an <b>RShiny App</b> to facilitate drug-target discovery",
+          "Created workflow based on python and R to identify and characterize gene-programs associated with cancer phenotypes",
+          "Benchmarked unsupervised methods to identify programs of co-expressed genes relevant to cancer",
+          "Adapted recent algorithms for <b>suvival and response-based modeling</b>"
+      ]
+    } ],
   "research": [
+    
     {
       "title": "Predictive Modeling of Cancer Treatment",
       "position": "Graduate Researcher",
@@ -152,7 +175,7 @@
       ],
       "honors": "Interdiscplinary Quantitative Biology NSF Fellow, Schurl-Curci Scholar",
       "gpa_cumulative": "4.0",
-      "graduation_date": "Expected May 2027"
+      "graduation_date": "Expected May 2026"
     },
     {
       "institution": "University of Colorado- Boulder",
@@ -227,6 +250,18 @@
   ],
   "interests": [
     {
+      "name": "Preparing for Quality Science in Industry",
+      "summary": "I am excited to help change lives in biotech companies, but also recognize industry brings unique challenges not thoroughly taught in academia. Therefore, I am getting the Quality Science Education Micro-Credential through Pathway for Patient Health. Coursework includes Global Regulatory & Legal Requirements of Quality, Business Acumen, Product Development & Validation, and Risk & Failure Analysis. <a href=www.pathway4ph.org>Website</a>",
+      "images": [
+      ]
+    },
+    {
+      "name": "Facilitating learning of Machine Learning across Campuses",
+      "summary": "I lead a biweekly journal club on the usage of LLMs in biology across multiple departments (e.g. Computer Science, Biology, Ecology) at both the University of Colorado Boulder and Anschutz campuses. We invite speakers and get hands'on learning. <a href=https://github.com/sterrettJD/gpLM-reading-group>Curriculum</a>",
+      "images": [
+      ]
+    },
+    {
       "name": "Teaching Others about Bioinformatics",
       "summary": "I help plan and lead a workshop every year teaching graduate students on how to perform QC on and analyze their next-generation sequencing data (e.g. CITE-seq, RNA-seq, ChIP-seq, ATAC-seq). <a href=https://github.com/Dowell-Lab/srworkshop>Github Repo</a>",
       "images": [
@@ -238,18 +273,6 @@
       "images": [
       ]
       
-    },
-    {
-      "name": "Preparing for Quality Science in Industry",
-      "summary": "I am excited to help change lives in biotech companies, but also recognize industry brings unique challenges not thoroughly taught in academia. Therefore, I am getting the Quality Science Education Micro-Credential through Pathway for Patient Health. Coursework includes Global Regulatory & Legal Requirements of Quality, Business Acumen, Product Development & Validation, and Risk & Failure Analysis. <a href=www.pathway4ph.org>Website</a>",
-      "images": [
-      ]
-    },
-    {
-      "name": "Facilitating learning of Machine Learning across Campuses",
-      "summary": "I co-lead a biweekly journal club on the usage of LLMs in biology across multiple departments (e.g. Computer Science, Biology, Ecology) at both the University of Colorado Boulder and Anschutz campuses. We invite speakers and get hands'on learning. <a href=https://github.com/sterrettJD/gpLM-reading-group>Curriculum</a>",
-      "images": [
-      ]
     },
     
     {
