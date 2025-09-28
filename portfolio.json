@@ -7,7 +7,7 @@
     "phone": "623-566-0282",
     "location": "Denver, CO, US"
   },
-  "summary": "I am a Computational biologist driven by the fervent belief that biological understanding can be advanced through the transformative power of computational and statistical methods. In my current research, I focus on using and developing computational tools to integrate disease-associated variation with transcriptomics data for identifying biomarkers of disease. As an interdisciplinary researcher, I am constantly looking for opportunities to advance scientific knowledge and improve public health and scientific knowledge.",
+  "summary": "I am a Computational biologist driven by the fervent belief that biological understanding can be advanced through the transformative power of computational and statistical methods. In my current research, I focus on using and developing computational tools to integrate disease-associated variation with transcriptomics data for identifying biomarkers of disease. As an interdisciplinary researcher, I have a proven track record of consulting and collaborating with biologists, clinicians, computer scientists, and non-technical stakeholders. I am constantly looking for opportunities to advance scientific knowledge and improve public health.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
@@ -36,7 +36,10 @@
         "title": "Full list of publications can be found <a href=https://scholar.google.com/citations?hl=en&user=vKXsBE4AAAAJ&view_op=list_works&sortby=pubdate>here.</a>"
           },
       {
-        "title": "Sigauke, R.F., Sanford, L., Maas, Z.L., Jones, T., Stanley, J.T., <b>Townsend, H.A.</b>, Allen, M.A., Dowell, R.D. (2025). Atlas of nascent RNA transcripts reveals enhancer to gene linkages. <i>BMC Genomics.</i> 26:407 <a href=10.1101/2023.12.07.570626>link.</a>"
+        "title": "<b>Townsend, H.A.</b>, Stanley, J.T., Allen, M.A., Dowell, R.D. [<i>Under Review</i>]. Improving confidence of differential transcription calls in enhancers. <a href=https://www.biorxiv.org/content/10.1101/2025.09.12.675852v1.full>link.</a>"
+          },
+      {
+        "title": "Sigauke, R.F., Sanford, L., Maas, Z.L., Jones, T., Stanley, J.T., <b>Townsend, H.A.</b>, Allen, M.A., Dowell, R.D. (2025). Atlas of nascent RNA transcripts reveals enhancer to gene linkages. <i>BMC Genomics.</i> 26:407 <a href=https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-11568-z>link.</a>"
           },
       {
         "title": "Stanley J.T., Barone G.E.F., <b>Townsend H.A.</b>, Sigauke R.F., Allen M.A., Dowell R.D. (2025). LIET Model: Capturing the kinetics of RNA polymerase from loading to termination. <i>Nucleic Acids Research.</i> 53:7. <a href=https://doi.org/10.1093/nar/gkaf246>link.</a>"
@@ -96,10 +99,10 @@
       "highlights": [
         "Created a <b>Nextflow</b> pipeline and an algorithm for optimized characterization of enhancers from high-throughput sequencing: <a href=https://github.com/Dowell-Lab/Bidir_Counting_Analysis>Github Repo</a>",
         "Developed an <b>enrichment-based statistical method</b> to improve identification of differentially transcribed enhancers and responsive transcription factors: <a href=https://github.com/Dowell-Lab/TFEA/tree/Lead_edge>Github Repo</a>",
-        "Adapted a novel Bayesian model-based software to model enhancer transcription",
-        "Performing QC, enhancer identification, differential expression, GO analysis, and regulatory network prediction of patient samples perturbed with particulate matter",
-        "<b>Two expected publications</b>: Townsend et al. in prep (expected May 2025), Townsend et al. in prep (expected Nov 2025)"
-      ]
+        "Adapted a novel Bayesian model-based software to model enhancer transcription: <a href=https://github.com/Dowell-Lab/LIET/tree/LIET_EMGtoo>Github Repo</a>",
+        "Performed QC, enhancer identification, differential expression, GO analysis, and regulatory network prediction of patient samples perturbed with particulate matter",
+        "Identified and annotated functional genetic variants associated with lung diseases using APIs and data of several public and in-house databases"
+        ]
     },
     
     {
