@@ -111,10 +111,39 @@
         <main>
           {% if publications %}
             <section>
-              <h2 class="section-heading">Publications</h2>
+              <h2 class="section-heading">Highlighted Publications</h2>
               <ul>
                 {% for publication in publications %}<li>{{ publication.title | safe }}</li>{% endfor %}
               </ul>
+            </section>
+          {% endif %}
+          {% if work %}
+            <section>
+              <h2 class="section-heading">Work Experience</h2>
+              {% for job in work %}
+                <section>
+                  <h3>
+                    {% if job.url %}
+                      <a href="{{ job.url }}">{{ job.title }}</a>
+                    {% else %}
+                      {{ job.title }}
+                    {% endif %}
+                  </h3>
+                  
+                  {% if job.start_date and job.end_date %}
+                    <p class="section-label">{{ job.position }},     {{ job.start_date }} - {{ job.end_date }}</p>
+                  
+                  {% else %}
+                  <p class="section-label">{{ job.position }}</p>
+                  {% endif %}
+                  {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
+                  {% if job.highlights %}
+                    <ul>
+                      {% for highlight in job.highlights %}<li>{{ highlight | safe }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                </section>
+              {% endfor %}
             </section>
           {% endif %}
           {% if research %}
