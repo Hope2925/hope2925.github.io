@@ -109,14 +109,6 @@
     <div class="page-content">
       <div class="container">
         <main>
-          {% if publications %}
-            <section>
-              <h2 class="section-heading">Highlighted Publications</h2>
-              <ul>
-                {% for publication in publications %}<li>{{ publication.title | safe }}</li>{% endfor %}
-              </ul>
-            </section>
-          {% endif %}
           {% if work %}
             <section>
               <h2 class="section-heading">Work Experience</h2>
@@ -144,6 +136,14 @@
                   {% endif %}
                 </section>
               {% endfor %}
+            </section>
+          {% endif %}
+          {% if publications %}
+            <section>
+              <h2 class="section-heading">Highlighted Publications</h2>
+              <ul>
+                {% for publication in publications %}<li>{{ publication.title | safe }}</li>{% endfor %}
+              </ul>
             </section>
           {% endif %}
           {% if research %}
